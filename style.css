@@ -24,56 +24,56 @@ body {
 }
 
 .clock .number {
-    transform: rotate(var(--rotation));
+    --rotation: 0;
     position: absolute;
     height: 100%;
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    /* --rotation: 0; */
+    transform: rotate(var(--rotation));
 }
 
-.number1 {
+.clock .number1 {
     --rotation: 30deg;
 }
 
-.number2 {
+.clock .number2 {
     --rotation: 60deg;
 }
 
-.number3 {
+.clock .number3 {
     --rotation: 90deg;
 }
 
-.number4 {
+.clock .number4 {
     --rotation: 120deg;
 }
 
-.number5 {
+.clock .number5 {
     --rotation: 150deg;
 }
 
-.number6 {
+.clock .number6 {
     --rotation: 180deg;
 }
 
-.number7 {
+.clock .number7 {
     --rotation: 210deg;
 }
 
-.number8 {
+.clock .number8 {
     --rotation: 240deg;
 }
 
-.number9 {
+.clock .number9 {
     --rotation: 270deg;
 }
 
-.number10 {
+.clock .number10 {
     --rotation: 300deg;
 }
 
-.number11 {
+.clock .number11 {
     --rotation: 330deg;
 }
 
