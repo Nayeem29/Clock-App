@@ -90,7 +90,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.hand {
+.clock .hand {
     --rotation: 0;
     position: absolute;
     left: 50%;
@@ -103,19 +103,19 @@ body {
     transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
 }
 
-.second {
+.clock .hand.second {
     height: 45%;
     width: 3px;
     background-color: red;
 }
 
-.minute {
+.clock .hand.minute {
     height: 40%;
     width: 7px;
     background-color: black;
 }
 
-.hour {
+.clock .hand.hour {
     height: 35%;
     width: 10px;
     background-color: black;
