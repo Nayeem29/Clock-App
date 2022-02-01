@@ -14,6 +14,32 @@ body {
     overflow: hidden;
 }
 
+h3 {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    height: 4rem;
+    width: 8rem;
+    font-size: 2rem;
+}
+
+#analog {
+    margin: 2rem;
+}
+
+#digital {
+    margin: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .clock {
     width: 400px;
     height: 400px;
